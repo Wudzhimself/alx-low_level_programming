@@ -1,1 +1,7 @@
-hope it works fingers crossed
+# C - Functions, nested loops
+
+## Header File :file_folder:
+
+*[main.h](./main.h):Header file containing prototypes for all functions written in the project.
+
+
