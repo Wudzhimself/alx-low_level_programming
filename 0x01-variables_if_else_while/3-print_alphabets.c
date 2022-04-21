@@ -1,21 +1,31 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Entry point
  *
- * Description: Print lower and upper alphabet on the same line
- * Return: 0
+ * Return: Always 0 (Sucess/correct)
  */
 int main(void)
+
 {
-int c;
+char lower_case;
+char upper_case;
 
-for(c = 0; c < 26; ++c)
-putchar("a" + c);
-for(c = 0; c < 26; ++c)
-putchar("A" + c);
-
-putchar('\n');
-
-return (0);
+for (lower_case = 'a'; lower_case <= 'z'; lower_case++)
+{
+putchar(lower_case);
 }
 
+
+for (upper_case = 'A'; upper_case <= 'Z'; upper_case++)
+{
+putchar(upper_case);
+}
+
+
+
+
+putchar ('\n');
+
+return (0);
+
+}
